@@ -12,14 +12,10 @@
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_fragmentA"
-            app:destination="@id/fragmentA"
-            app:popUpTo="@id/mainFragment"
-            app:popUpToInclusive="true" />
+            app:destination="@id/fragmentA" />
         <action
             android:id="@+id/action_mainFragment_to_fragmentX"
-            app:destination="@id/fragmentX"
-            app:popUpTo="@id/mainFragment"
-            app:popUpToInclusive="true" />
+            app:destination="@id/fragmentX" />
     </fragment>
     <fragment
         android:id="@+id/fragmentA"
